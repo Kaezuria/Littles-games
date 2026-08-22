@@ -19,14 +19,14 @@ Make sure you have **Python 3.x** installed on your system.
    git clone [https://github.com/SyntaxCrash/Littles-games.git] or (https://github.com/SyntaxCrash/Littles-games.git)
 
 2. **Navigate to the projet directory:**
-   ˋˋˋbash
+   ```bash
    cd Little-games
-
+   
 ## 🚀 How to Run
    To play the Hangman game, run the following command in your terminal:
-   ’’’bash
+   ```bash
    python Handman_minigames.py
-   
+```
 ## 🤝 Contributing
 ​Contributions, new mini-game ideas, and improvements are always welcome! Feel free to open an issue or submit a pull request.
 ​👤 Author: @SyntaxCrash
