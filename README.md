@@ -25,10 +25,11 @@ Make sure you have **Python 3.x** installed on your system.
    cd Little-games
    
 ## 🚀 How to Run
-   To play the Hangman game, run the following command in your terminal:
+   To play the games, run the following command in your terminal.
+example:
    ```bash
    python Handman_minigames.py
 ```
 ## 🤝 Contributing
 ​Contributions, new mini-game ideas, and improvements are always welcome! Feel free to open an issue or submit a pull request.
-​👤 Author: @SyntaxCrash
+​👤 Author: **SyntaxCrash**
