@@ -8,6 +8,8 @@ A collection of lightweight and fun mini-games built in Python! 🚀
 
 * **🔤 Hangman** (`Handman_minigame.py`) — The classic word-guessing game. Guess the hidden word letter by letter before running out of attempts.
 
+* **⭕ Tic Tac Toe** (`tictactoe.py`) — The classic two-player grid game. Take turns placing X's and O's, and be the first to align three in a row!
+
 ---
 
 ## 🛠️ Requirements & Installation
