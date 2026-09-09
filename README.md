@@ -18,7 +18,7 @@ Make sure you have **Python 3.x** installed on your system.
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/SyntaxCrash/Littles-games.git] or (https://github.com/SyntaxCrash/Littles-games.git)
+   git clone https://github.com/Kaezuria/Littles-games.git
 
 2. **Navigate to the projet directory:**
    ```bash
@@ -32,4 +32,4 @@ example:
 ```
 ## 🤝 Contributing
 ​Contributions, new mini-game ideas, and improvements are always welcome! Feel free to open an issue or submit a pull request.
-​👤 Author: **SyntaxCrash**
+​👤 Author: **Kaezuria**
