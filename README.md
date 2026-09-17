@@ -1,35 +1,104 @@
-# 🎮 Littles Games
+# Littles Games
 
-A collection of lightweight and fun mini-games built in Python! 🚀
+A collection of small terminal games written in Python.
 
----
+## Games
 
-## 🎲 Available Games
+### Hangman
 
-* **🔤 Hangman** (`Handman_minigame.py`) — The classic word-guessing game. Guess the hidden word letter by letter before running out of attempts.
+Guess the hidden word one letter at a time before you run out of attempts.
 
-* **⭕ Tic Tac Toe** (`tictactoe.py`) — The classic two-player grid game. Take turns placing X's and O's, and be the first to align three in a row!
+File: `Handman_minigame.py`
 
----
+### Snake
 
-## 🛠️ Requirements & Installation
+Control the snake, eat the food, and try to achieve the highest score without
+hitting the wall or yourself.
 
-Make sure you have **Python 3.x** installed on your system.
+File: `Snake.py`
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Kaezuria/Littles-games.git
+### Tic Tac Toe
 
-2. **Navigate to the projet directory:**
-   ```bash
-   cd Little-games
-   
-## 🚀 How to Run
-   To play the games, run the following command in your terminal.
-example:
-   ```bash
-   python Handman_minigames.py
+Two players take turns placing `X` and `O`. The first player to align three
+symbols wins.
+
+File: `TicTacToe.py`
+
+## Requirements
+
+- Python 3.8 or newer
+- Windows is recommended for Snake because it uses `msvcrt` and the Windows
+  console API for real-time keyboard input.
+
+## Installation
+
+Clone the repository and open its folder:
+
+```powershell
+git clone https://github.com/Kaezuria/Littles-games.git
+cd Littles-games
 ```
-## 🤝 Contributing
-​Contributions, new mini-game ideas, and improvements are always welcome! Feel free to open an issue or submit a pull request.
-​👤 Author: **Kaezuria**
+
+No external Python packages are required. The games use only the Python
+standard library.
+
+## Run A Game
+
+Start Hangman:
+
+```powershell
+python Handman_minigame.py
+```
+
+Start Snake:
+
+```powershell
+python Snake.py
+```
+
+Start Tic Tac Toe:
+
+```powershell
+python TicTacToe.py
+```
+
+## Controls
+
+### Hangman
+
+- Enter one letter at a time.
+- Type `y` when asked if you want to play again.
+
+### Snake
+
+- `W` or Up Arrow: move up
+- `S` or Down Arrow: move down
+- `A` or Left Arrow: move left
+- `D` or Right Arrow: move right
+- `Q`: quit
+
+### Tic Tac Toe
+
+Enter a number from `1` to `9` to select a cell:
+
+```text
+ 1 | 2 | 3
+---+---+---
+ 4 | 5 | 6
+---+---+---
+ 7 | 8 | 9
+```
+
+## Project Structure
+
+```text
+Littles-games/
+├── Handman_minigame.py
+├── Snake.py
+├── TicTacToe.py
+└── README.md
+```
+
+## Author
+
+Created by **Kaezuria**.
