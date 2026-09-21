@@ -24,6 +24,12 @@ symbols wins.
 
 File: `TicTacToe.py`
 
+### Treasure Run
+
+Explore the ruins, collect every gem, avoid the guards, and reach the exit.
+
+File: `Treasure_Run.py`
+
 ## Requirements
 
 - Python 3.8 or newer
@@ -62,6 +68,12 @@ Start Tic Tac Toe:
 python TicTacToe.py
 ```
 
+Start Treasure Run:
+
+```powershell
+python Treasure_Run.py
+```
+
 ## Controls
 
 ### Hangman
@@ -89,6 +101,17 @@ Enter a number from `1` to `9` to select a cell:
  7 | 8 | 9
 ```
 
+### Treasure Run
+
+- `W`: move up
+- `A`: move left
+- `S`: move down
+- `D`: move right
+- `Q`: quit
+
+Collect all three `*` gems, then step on the `E` exit before a `G` guard
+reaches you.
+
 ## Project Structure
 
 ```text
@@ -96,6 +119,7 @@ Littles-games/
 ├── Handman_minigame.py
 ├── Snake.py
 ├── TicTacToe.py
+├── Treasure_Run.py
 └── README.md
 ```
 
